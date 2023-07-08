@@ -5,6 +5,7 @@
 // })
 
 export function valida(input) {
+    
     const tiposDeInput = input.dataset.tipo;
     if (validadores[tiposDeInput]) {
         validadores[tiposDeInput](input)
